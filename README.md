@@ -1,2 +1,3 @@
 # CodSoft
-Author: Shreya
+Author: Shreya (Student).
+
