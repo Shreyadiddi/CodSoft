@@ -1,2 +1,2 @@
 # CodSoft
-Author Shreya
+Author: Shreya
