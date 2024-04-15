@@ -6,6 +6,9 @@
     text-decoration: none;
     list-style: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 .header{
     position: fixed;
     top: 0;
@@ -141,7 +144,7 @@ span{
     background-color: rgba(0, 0, 0, 0.6);
     width: 50px;
 }
-.about{
+.skills{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,26 +153,86 @@ span{
     background: black;
     margin-top: 5%;
 }
-.about-img img{
+.skills-img img{
     position: relative;
-    box-shadow: 0 0 25px crimson
-                0 0  50px crimson;
     border-radius: 50%;
     width: 300px;
     height: 30%;
 }
-.about-content h2{
+.skills-content h2{
     text-align: left;
     color: white;
     font-size: 42px;
 }
-.about-content h3{
+.skills-content h3{
     font-size: 62px;
     color: white;
 }
-.about-content p{
+.skills-content p{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    margin: 2em 0 3em;
+}
+.projects{
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 10% 0;
+}
+.projects-content{
+    max-width: 800px;
+}
+.projects-img img{
+    position: relative;
+    gap: 7em;
+    width: 500px;
+    height: 10%;
+}
+.projects-content h2{
+    color: black;
+    font-size: 30px;
+}
+.projects-content h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+.projects-content h3{
+    margin-top: 15%;
+    font-size: 42px;
+}
+.projects-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+.resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background: black;
+    margin-top: 5%;
+}
+.resume-img img{
+    position: relative;
+    width: 300px;
+    height: 30%;
+}
+.resume-content h2{
+    text-align: left;
+    color: white;
+    font-size: 42px;
+}
+.resume-content h3{
+    font-size: 62px;
+    color: white;
+}
+.resume-content p{
+    color: white;
+    font-size: 18px;
     margin: 2em 0 3em;
 }
 .contact-form h2{
